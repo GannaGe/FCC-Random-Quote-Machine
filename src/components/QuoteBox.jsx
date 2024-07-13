@@ -1,6 +1,6 @@
 import React from 'react';
 import QuoteButton from './QuoteButton';
-import TwitButton from './TwitterButton';
+import TwitterButton from './TwitterButton';
 
 const QuoteBox = ({ quote, author, twitterURL, onNewQuoteClick }) => (
   <div id="quote-box" className="quote-box">
