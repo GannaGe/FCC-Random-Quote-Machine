@@ -10,7 +10,7 @@ const QuoteBox = ({ quote, author, twitterURL, onNewQuoteClick }) => (
       </p>
       <cite id="author" className="guote-author"> - {author} </cite>
       <div className="btn-box">
-        <TwitButton twitterURL={twitterURL} />
+        <TwitterButton twitterURL={twitterURL} />
         <QuoteButton onClick={onNewQuoteClick} />
       </div>
     </div>
